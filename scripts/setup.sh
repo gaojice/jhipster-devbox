@@ -8,10 +8,10 @@ apt-get upgrade
 # Install the mandatory tools
 ################################################################################
 
-export LANGUAGE='en_US.UTF-8'
-export LANG='en_US.UTF-8'
-export LC_ALL='en_US.UTF-8'
-locale-gen en_US.UTF-8
+export LANGUAGE='zh_CN.UTF-8'
+export LANG='zh_CN.UTF-8'
+export LC_ALL='zh_CN.UTF-8'
+locale-gen zh_CN.UTF-8
 dpkg-reconfigure locales
 
 # install utilities
